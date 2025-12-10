@@ -9,13 +9,13 @@ class Person {
 		return this._name
 	 }
 	set name(value){
-		return this._name=value
+		this._name=value
 	}
 	set age(){
 		return this._age
 	}
 	 set age(aged){
-	 	return this._age=aged
+	 	 this._age=aged
 		
 	 }
 }
