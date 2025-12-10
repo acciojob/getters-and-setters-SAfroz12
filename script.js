@@ -11,7 +11,7 @@ class Person {
 	set name(value){
 		this._name=value
 	}
-	set age(){
+    get age(){
 		return this._age
 	}
 	 set age(aged){
